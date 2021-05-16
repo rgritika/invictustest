@@ -1,0 +1,90 @@
+body{
+  background-color: #216A5F ;
+  padding: 10px;
+}
+
+h1{
+  color: #21326A;
+  font-size: 60px;
+}
+.final{
+  text-align: center;
+}
+
+.btn{
+  border-style: none;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  width: 800px;
+  height: 200px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2) ;
+  ;
+}
+
+tr {
+  background-color: #f5abc9;
+  transition: all .2s ease-in;
+  cursor: pointer;
+}
+
+th,td {
+        padding: 12px;
+        text-align: center;
+        border: 1px solid #60588f;
+}
+th{
+  font-size: 30px;
+}
+#header {
+  background-color: #e93b81;
+  color: #fff;
+}
+tr:hover {
+  background-color: #b6c9f0;
+  transform: scale(1.02);
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 768px) {
+  table {
+      width: 90%;
+  }
+}
+
+input{
+  border: none;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  width: 400px;
+  height: 50px; 
+}
+
+.btn{
+  font-size: 20px;
+  width: 150px;
+  height: 45px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  background-color: #ce97b0;
+  color: black;
+  border: 2px solid #fbc6a4;
+  text-decoration: none;
+  transition: all 0.5 ease;
+}
+
+.btn:hover{
+  background-color: #f55c47;
+  color: black;
+}
+
+p{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
